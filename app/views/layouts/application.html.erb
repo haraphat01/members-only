@@ -15,6 +15,7 @@
       <h1 class="member text-center">Welcome to Members Only</h1>
       <hr>
       <% if user_signed_in? %>
+     <h2 class="text-center"> <%= current_user.name %> </h2>
         <%= link_to "Log Out", destroy_user_session_path,:method => 'delete', class: "flex-sm-fill text-sm-center nav-link btn btn-primary mr-2" %>
       <% else %>
         <nav class="nav nav-pills flex-column flex-sm-row">
