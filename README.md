@@ -12,7 +12,7 @@ This assignment consists of using the Devise gem to have a first approach at aut
 
 ## Live Demo
 
-![Live Demo Link] (https://stormy-castle-54214.herokuapp.com/)
+[Live Demo Link](https://stormy-castle-54214.herokuapp.com/)
 
 ## Getting Started
 
