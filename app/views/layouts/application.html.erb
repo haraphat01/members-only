@@ -14,10 +14,14 @@
     <section>
       <h1 class="member text-center">Welcome to Members Only</h1>
       <hr>
-      <nav class="nav nav-pills flex-column flex-sm-row">
-        <a class="flex-sm-fill text-sm-center nav-link btn btn-primary mr-2" href="#!">Sign In</a>
-        <a class="flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" href="#!">Sign Up</a>
-      </nav>
+      <% if user_signed_in?%>
+        <%= link_to "Log Out", destroy_user_session_path(current_user.id),:method => 'delete', class: "flex-sm-fill text-sm-center nav-link btn btn-primary mr-2" %>
+      <% else %>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+          <%= link_to "Sign In", new_user_session_path, class: "flex-sm-fill text-sm-center nav-link btn btn-primary mr-2" %>
+          <%= link_to "Sign Up", new_user_registration_path, class: "flex-sm-fill text-sm-center nav-link btn btn-outline-secondary" %>
+        </nav>
+      <% end %>
     </section>
     
     <div class="d-flex flex-column align-items-center">
