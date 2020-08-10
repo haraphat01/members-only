@@ -1,8 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<% if user_signed_in?  %>
 <div class="mb-2 ">
   <%= render 'form', post: @post %>
 </div>
+<% end %>
 
 <% @posts.each do |post| %>
 <div class="card mb-2 w-100">
