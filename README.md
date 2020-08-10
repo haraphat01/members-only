@@ -4,7 +4,7 @@
 
 This assignment consists of using the Devise gem to have a first approach at authentication in rails. We built an application that allows users to create posts and the authors of the posts are displayed only if as a User logged in.
 
-![screenshot](/app/assets/images/screenshot.PNG)
+![screenshot](/app/assets/images/screenshot.png)
 
 ## Built With
 
@@ -12,7 +12,7 @@ This assignment consists of using the Devise gem to have a first approach at aut
 
 ## Live Demo
 
-[Live Demo Link] (https://stormy-castle-54214.herokuapp.com/)
+![Live Demo Link] (https://stormy-castle-54214.herokuapp.com/)
 
 ## Getting Started
 
