@@ -1,24 +1,49 @@
-# README
+# Members Only Club House Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Collaborative project]
 
-Things you may want to cover:
+This assignment consists of using the Devise gem to have a first approach at authentication in rails. We built an application that allows users to create posts and the authors of the posts are displayed only if as a User logged in.
 
-* Ruby version
+![screenshot](/app/assets/images/screenshot.png)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
 
-* Database creation
+## Live Demo
 
-* Database initialization
+[Live Demo Link](https://stormy-castle-54214.herokuapp.com/)
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Deployment instructions
+$ cd <folder>
+$ git clone https://github.com/haraphat01/members-only.git
 
-* ...
+## Authors
+
+👤 **Arafat Akata**
+
+- Github: [ @haraphat01](https://github.com/haraphat01)
+
+👤 **Nusret**
+
+- Github: [@Nusret](https://github.com/nusretbutunay)
+
+- Twitter: [@Nusret](https://twitter.com/nusretbutunay)
+
+- Linkedin: [Nusret Butunay](https://www.linkedin.com/in/nusretbutunay)
+
+## �� Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
