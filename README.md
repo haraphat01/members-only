@@ -1,6 +1,3 @@
-# Members Only Club House Project
-
-
 
 This assignment consists of using the Devise gem to have a first approach at authentication in rails. We built an application that allows users to create posts and the authors of the posts are displayed only if as a User logged in.
 
